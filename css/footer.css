@@ -1,0 +1,41 @@
+.footer-about-advertising {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-about-advertising>span {
+    color: grey;
+}
+
+.footer-about-advertising>span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-marketing-settings {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-marketing-settings>span {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: grey;
+}
+
+.footer-marketing-settings>span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-bottom-one {
+    display: flex;
+    justify-content: center;
+}
+
+.copy-right {
+    color: grey;
+    padding-left: 10px;
+}

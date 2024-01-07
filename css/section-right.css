@@ -1,0 +1,162 @@
+.section-right {
+    width: 50%;
+    height: 650px;
+}
+
+.happening-para {
+    font-family: Tahoma;
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.join-para {
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.btn-google-signup {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 35px;
+    border-color: lightgray;
+    background-color: white;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.15s, cursor 0.15s;
+    font-weight: bold;
+
+}
+
+.btn-google-signup:hover {
+    background-color: rgb(229, 229, 229);
+    cursor: pointer;
+}
+
+.btn-google-signup:active {
+    opacity: 0.7;
+}
+
+.google-btn-icon {
+    height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.btn-apple-signup {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 35px;
+    border-color: lightgray;
+    background-color: white;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    transition: background-color 0.15s, cursor 0.15s;
+    font-weight: bold;
+}
+
+.btn-apple-signup:hover {
+    background-color: rgb(229, 229, 229);
+    cursor: pointer;
+}
+
+.btn-apple-signup:active {
+    opacity: 0.7;
+}
+
+.apple-btn-icon {
+    height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.btn-create-account {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+    border-radius: 35px;
+    width: 250px;
+    background-color: rgb(29, 154, 239);
+    color: white;
+    transition: background-color 0.15s, cursor 0.15s;
+    font-weight: bold;
+}
+
+.btn-create-account:hover {
+    background-color: rgb(26, 138, 212);
+    cursor: pointer;
+
+}
+
+.btn-create-account:active {
+    opacity: 0.7;
+}
+
+.signup-terms {
+    width: 250px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+.signup-terms>span {
+    color: rgb(29, 155, 240);
+    transition: text-decoration 0.15s cursor 0.15s;
+
+}
+
+.signup-terms>span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.already-have-account {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.btn-signin {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-radius: 35px;
+    border-style: solid;
+    border-color: lightgray;
+    width: 250px;
+    color: rgb(29, 154, 239);
+    background-color: white;
+    transition: background-color 0.15s, cursor 0.15s;
+    font-weight: bold;
+
+}
+
+.btn-signin:hover {
+    background-color: rgba(30, 140, 213, 0.197);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-signin:active {
+    opacity: 0.7;
+}

@@ -1,0 +1,11 @@
+.section-left {
+    width: 50%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-left>svg {
+    width: 60%;
+}
